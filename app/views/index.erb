@@ -1,0 +1,22 @@
+<div id="todo">
+  <div class="toolbox">
+    <form id="form_add_todo"action="/add_todo" method="post">
+      <input type="text" name="todo_text" class="todo" value="Put your todo item here!"/>
+      <input class="add" type="submit" value="Add Todo"/>
+    </form>
+  </div>
+
+  <div class="todo_list">
+
+  </div>
+
+  <div id="todo_template" style="display: none;">
+    <div class="todo">
+      <h2>Todo Name</h2>
+      <ul>
+        <li><a href="#" class="delete">Delete</a></li>
+        <li><a href="/todo/complete" class="complete">Complete</a></li>
+      </ul>
+    </div>
+  </div
+</div>
